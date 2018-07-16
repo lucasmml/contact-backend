@@ -28,7 +28,7 @@ Suba o backend através da classe ContactsApp (método main).
 E acesse a url http://localhost:9001/api/persons
 
 Deve retornar a lista de pessoas em formato json.
-A criação, alteração e exclusão podem ser feitas através dos método PUT, POST e DELETE.
+A criação, alteração e exclusão podem ser feitas através dos métodos PUT, POST e DELETE.
 
 Endpoints:
 
