@@ -1,10 +1,10 @@
-# TaskList
+# Contacts
 
-Este projeto ...
+Este projeto cont√©m um controller chamado `RestApiController` que possui as funcionalidades do seu crud.
 
 ## Getting Started
 
-Aqui seguem as configuraÁ„o para execuÁ„o local do projeto.
+Aqui seguem as configura√ß√£oo para execu√ß√£o local do projeto.
 
 ### Prerequisites
 
@@ -14,15 +14,30 @@ Aqui seguem as configuraÁ„o para execuÁ„o local do projeto.
 
 ### Installing
 
-Realizar o maven clean install, em seguida maven update project.
+Realizar o maven clean install e em seguida maven update project.
 
 ## Running the tests
 
-N„o foi realizado testes unit·rios.
+N√£o foi realizado testes unit√°rios, devido a baixa complexidade de neg√≥cio.
 
 
 ## Deployment
 
+Teste local:
+Suba o backend atrav√©s da classe ContactsApp (m√©todo main).
+E acesse a url http://localhost:9001/api/persons
+
+Deve retornar a lista de pessoas em formato json.
+A cria√ß√£o, altera√ß√£o e exclus√£o podem ser feitas atrav√©s dos m√©todo PUT, POST e DELETE.
+
+Endpoints:
+
+* ``http://localhost:9001/api/person/{id} - GET``
+* ``http://localhost:9001/api/person - POST``
+* ``http://localhost:9001/api/person/{id} - PUT`` 
+* ``http://localhost:9001/api/person/{id} - DELETE``
+* ``http://localhost:9001/api/persons - GET``
+ 
 
 ## Authors
 
