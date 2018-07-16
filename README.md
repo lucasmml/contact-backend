@@ -4,7 +4,7 @@ Este projeto contém um controller chamado `RestApiController` que possui as fun
 
 ## Getting Started
 
-Aqui seguem as configuraçãoo para execução local do projeto.
+Aqui seguem as configurações para execução local do projeto.
 
 ### Prerequisites
 
